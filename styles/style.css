@@ -1,0 +1,326 @@
+/* Start Font */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* End Font */
+
+/* Start Body */
+body {
+    background-color: white;
+    color: black ;
+    font-family: Roboto, Helvetica, Arial,san-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+    /* End Body */
+
+
+    /* Start Debug */
+    .bg-blue {
+        background-color: blue;
+    }
+
+    .bg-grey {
+        background-color: grey;
+    }
+
+    .bg-red {
+        background-color: red
+    }
+
+    .bg-white {
+        background-color: white
+    }
+
+    .bg-black {
+        background-color: black
+    }
+
+    /* End Debug */
+
+    /* Start Container */
+    .container {
+        margin: 10px auto;
+        overflow: auto;
+        width: 90%;
+
+    .container {
+        margin:10x auto;
+        overflow: auto;
+        width: 100%;
+    }
+    }
+    /* End Container */
+
+    /* Start Logo*/
+    .logo {
+        text-align: center;
+    }
+    /* End Logo*/
+
+    /* Start Anchor / Hyperlink */
+    a:link,
+    a:visited {
+        color: #0366d6;
+        text-decoration: none;
+
+    }
+    a:hover,
+    a:active {
+        color: #000000;
+        text-decoration: underline;
+
+    }
+    /* End Anchor / Hyperlink */
+
+    /* Start Menu Primer*/
+    .menu-primer {
+        background-color: rgba(209, 45, 45, 0.76);
+        border-radius: 4px;
+        box-shadow: 
+            0 3px 5px -1px rgba(0,0,0,.2),
+            0 6px 10px 0 rgba(0,0,0,.14),
+            0 1px 18px 0 rgba(0,0,0,.12);
+    }
+
+    .menu-primer li {
+        border-right: 1px solid white;
+        display: inline-block; 
+        margin: 0 -4px;
+    }
+
+    .menu-primer a {
+        color: white;
+        font-size: 14px;
+        display: inline-block;
+        letter-spacing: 1px;
+        padding: 10px 20px;
+        text-transfom: uppercase;
+    }
+
+    .menu-primer a:hover {
+        background-color: #f7f7f7;
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .menu-primer .active {
+        background-color: #f7f7f7;
+        color: #000000;
+        text-decoration: none;
+    }
+    /* End Menu Primer*/
+
+    /* Start Heading*/
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    h5 {
+        font-size: 14px;
+    }    
+    h6 {
+        font-size: 13px;
+    }
+
+    /* End Heading*/
+
+    /* Start Jumbotorn*/
+    .jumbotorn {
+        background-color: #f6f8fa;
+        border: 1px solid #eaecef;
+        border-radius: 4px;
+        padding: 20px 0;
+    }
+
+    .jumbotorn h1 {
+        font-size: 32px;
+        padding: 0 20px;
+    }
+
+    .jumbotorn h3 {
+        font-size: 20px;
+        padding: 0 20px;
+    }
+    /* End Jumbotorn*/
+
+    /* Start Main*/
+    .main-home-one {
+        float: left;
+        width: 49.5%;
+    }
+    .main-home-two {
+        float: right;
+        width: 50%;
+    }
+
+    .main-home-one .box-isi,
+    .main-home-two .box-isi {
+        height: 140px;
+    }
+    /* End Main*/
+
+    /* Start Box*/
+    .box-heading {
+        background-color: #f6f8fa;
+        border: 1px solid #d1d5da;
+        border-radius: 3px 3px 0 0;
+        margin: 0;
+        padding: 10px 20px;
+        text-transform: uppercase;
+    }
+    .box-heading h4 {
+        font-size 14px;
+        margin 0;
+    }
+    .box-isi {
+        background-color: #ffffff;
+        border: 1px solid #eaecef;
+        border-top: 3px 3px 0 0;
+        margin: 0;
+        padding: 10px 20px;    
+
+    }
+    /* End Box*/
+    
+
+    /* Start Menu Sekunder*/
+    .menu-sekunder {
+        background-color: grey;
+        border-bottom: 1px solid #eaecef;
+        border-top: 1px solid #eaecef;
+        overflow: auto;
+        padding: 10px 0;
+    }
+
+    .menu-sekunder h4 {
+        font-size: 14px;
+        margin: 0 auto
+        text-transform: uppercase;
+    }
+    .menu-sekunder ul {
+        padding: 0;
+    }
+    .menu-sekunder li {
+        list-style: disc;
+    }
+    
+    .menu-sekunder li a,
+    .menu-sekunder p {
+        font-size: 15px
+    }
+
+    .menu-sekunder-one,
+    .menu-sekunder-two,
+    .menu-sekunder-three {
+        float: left;
+    }
+    .menu-sekunder-one {
+        width: 30%;
+    }
+    .menu-sekunder-two,
+    .menu-sekunder-one {
+        width: 35%;
+    }
+    /* End Menu Sekunder*/
+
+    /* Start Effect*/
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800;);
+    .snip1521 {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 30%;
+    max-width: 30%;
+    width: 100%;
+    color: #000000;
+    text-align: center;
+    font-size: 16px;
+    background-color: #ffffff;
+    }
+
+    .snip1521 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    }
+
+    .snip1521 img {
+    vertical-align: top;
+    max-width: 100%;
+    backface-visibility: hidden;
+    }
+
+    .snip1521 figcaption {
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    padding: 5px 20px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    line-height: 1.1em;
+    overflow: hidden;
+    height: 44px;
+    }
+
+    .snip1521 h3 {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: 2px;
+    }
+
+    .snip1521 h3.hover {
+    color: #ffffff;
+    font-weight: 800;
+    }
+
+    .snip1521 a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    }
+
+    .snip1521:hover > img,
+    .snip1521.hover > img {
+    opacity: 0;
+    }
+
+    .snip1521:hover figcaption,
+    .snip1521.hover figcaption {
+    background-color: #000000;
+    }
+
+    .snip1521:hover .title,
+    .snip1521.hover .title {
+    -webkit-transform: translateY(-150%);
+    transform: translateY(-150%);
+    }
+
+    .snip1521:hover .hover,
+    .snip1521.hover .hover {
+    -webkit-transform: translateY(-150%);
+    transform: translateY(-150%);
+    }
+    /* End Effect*/

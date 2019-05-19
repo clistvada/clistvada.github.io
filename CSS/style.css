@@ -216,6 +216,11 @@ body {
     .menu-sekunder li {
         list-style: disc;
     }
+    
+    .menu-sekunder li a,
+    .menu-sekunder p {
+        font-size: 15px
+    }
 
     .menu-sekunder-one,
     .menu-sekunder-two,

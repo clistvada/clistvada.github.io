@@ -198,7 +198,7 @@ body {
 
     /* Start Menu Sekunder*/
     .menu-sekunder {
-        background-color: grey;
+        background-color: rgba(224, 211, 211, 0.911);
         border-bottom: 1px solid #eaecef;
         border-top: 1px solid #eaecef;
         overflow: auto;
@@ -234,7 +234,20 @@ body {
     .menu-sekunder-one {
         width: 35%;
     }
+
+    .menu-sekunder li img {
+        vertical-align: middle
+    }
     /* End Menu Sekunder*/
+
+    /* Start Testimonial*/
+    .testimonial {
+        border-left: 4px solid #dfe2e5;
+        margin-left: 30px;
+        padding-left: 20px;
+    }
+
+    /* End Testimonial*/
 
     /* Start Effect*/
     @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800;);
@@ -323,4 +336,15 @@ body {
     -webkit-transform: translateY(-150%);
     transform: translateY(-150%);
     }
+
+    .tengah{
+        text-align: center;
+        image: center;
+    }
     /* End Effect*/
+    
+    /* Start Copyright */
+    .copyright p {
+        font-size:15px;
+    }
+    /* End Copyright */
